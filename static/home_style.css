@@ -1,0 +1,67 @@
+body{
+    background-image:url(../static/img2.jpeg);
+}
+form {
+   
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 5pt%;
+    text-shadow: violet;
+  }
+.box{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+}
+  
+h1{
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 10;
+    padding-bottom: 3;
+    font-family: 'Metal Mania', cursive;
+   
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+.about
+{
+    font-family: 'Tangerine', serif;
+        font-size: 48px;
+        
+}
+footer {
+    height: 30px;
+    scroll-margin-top: 2pt;
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+    text-align: center;
+    text-align: justify;
+    margin-top: 90pt;
+    scroll-padding-bottom: 2pt;
+    scroll-padding-top: 2pt;
+    padding: 5px 500px;
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+ 

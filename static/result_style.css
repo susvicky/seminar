@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background-image:url(../static/img2.jpeg);
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.neon{
+    text-align: center;
+    position: absolute;
+    padding-bottom: 50%;
+    /* top:30%; */
+    left:50%;
+    transform: translate(-50%);
+    margin:0;
+    padding: 0 20px;
+    font-size: 6em;
+    color: #ffffff;
+   text-shadow: 0 0 20px #ff005b;
+}

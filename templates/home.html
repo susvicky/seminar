@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="static/home_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+      </style>
+    <title>Review Prediction</title>
+</head>
+<body>
+
+
+    <h1>
+        Machine Learning Web APP to predict IF Customer's Review Is GOOD OR BAD.
+    </h1>
+
+    
+        <div class="font-effect-shadow-multiple|font-effect-outline">
+            <p style="color: lightgray;">
+                ABOUT THIS PROJECT
+            <br>->Used Natural Language Processing (Libraries:Spacy,Numpy,Pandas)
+            <br>->Frontend Technologies:HTML,CSS
+            <br>->Backend Technologies: Django
+            <br>->Can be used for classification of reviews of:
+            <br>        1.Ecommerce Products
+            <br>        2.Resturant
+            <br>        3.Movies
+            </p> 
+    
+            <div>
+   
+
+
+    <form action="{% url 'result' %}">
+
+        {% csrf_token %}
+
+        <!-- email_subject:<input type="text" required name="email_subject"> -->
+
+        
+        <div class="box mb-0" style="color: rgb(83, 233, 208)" >
+            
+            ENTER YOUR REVIEW
+        </div>
+        
+        
+        <textarea rows="5" cols="60" required name="email_subject">
+
+     </textarea><br>
+        
+        
+        <div class="button1"> 
+            <input type="submit" name="PREDICT" value="PREDICT">
+        </div>
+        
+    </form>
+
+    
+    
+
+
+        <footer>
+            <p>Coded with <span style="font-size:200%;color:red;">&hearts;</span> By SUSHANT SHAW  
+            
+            </p>
+        </footer>
+
+</body>
+</html>
